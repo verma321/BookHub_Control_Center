@@ -1,6 +1,3 @@
-// +----------------------------------+
-// |          HEADER FILES            |
-// +----------------------------------+
 
 #include <iostream>
 #include <windows.h>
@@ -16,9 +13,7 @@
 
 using namespace std;
 
-// +--------------------------------+
-// |		Global Variable     |
-// +--------------------------------+
+//Global Variable 
 
 MYSQL * conn;
 MYSQL_RES *res_set;
@@ -35,10 +30,7 @@ typedef struct
 	int year;
 }date;
 
-
-// +----------------------------------+
-// |	         Classes Made 		  |
-// +----------------------------------+
+// Classes Made
 
 class books
 {
